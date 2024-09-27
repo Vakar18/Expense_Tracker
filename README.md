@@ -54,3 +54,26 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/expense-tracker-app.git
    cd expense-tracker-app
+   
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+
+3. **Run the application**
+
+   ```bash
+   npm start
+
+This will start the development server. Open your browser and navigate to http://localhost:3000 to view the application.
+
+## Usage
+
+- **Adding Income:** Click the + Add Income button, enter the income amount, and submit to update your wallet balance.
+- **Adding Expenses:** Click the + Add Expense button, fill in the details (title, amount, category, date), and submit. The expense will be deducted from your wallet balance.
+- **Edit/Delete Expenses:** Use the Edit (pencil icon) or Delete (trash icon) buttons in the recent transactions list to modify or remove expenses.
+- **View Charts:** The app displays a bar chart for top expenses and a pie chart for expense distribution.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
